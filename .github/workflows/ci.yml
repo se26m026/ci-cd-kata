@@ -40,3 +40,4 @@ jobs:
           name: ci-cd-kata
           path: dist/ci-cd-kata.zip
           if-no-files-found: error
+          retention-days: 7
